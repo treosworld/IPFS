@@ -1,0 +1,28 @@
+.Product
+{
+    border: 1px solid black;
+    margin: 50px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+h1
+{
+    text-align: center
+}
+
+.image-block
+{
+    border: 1px solid black;
+}
+
+input
+{
+    background-color: white;
+    border: 1px solid black;
+}
+
+input[type="file"]
+{
+    border: none;
+}
+

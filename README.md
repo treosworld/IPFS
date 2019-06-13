@@ -1,2 +1,2 @@
-# IPFS
-Modified Interplanetary File System
+# TREOS IPFS
+

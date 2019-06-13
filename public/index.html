@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="jqueryui.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery.js"></script>
+    <script src="jqueryui.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Product</h1>
+    <div class="card mb-3 Product">
+      <div class="row no-gutters">
+        <div class="col-md-4 image-block">
+          <img id="output" class="card-img" />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <a id="url"></a>
+            <form enctype="multipart/form-data" id="ImageForm">
+              <input type="file" name="file" /> <br />
+              <br />
+              <input type="submit" value="Upload" id="Submit-button" /> <br />
+              <br />
+              <input
+                type="reset"
+                value="Delete this image"
+                id="Delete-button"
+                style="display: none;"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
